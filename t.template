@@ -31,7 +31,7 @@
         <li>Memory: {{.ServerInfo.Memory}}</li>
     </ul>
     <ul>
-        <li>1: {{.FetchServerInfo "cat /flagf17addfb35.txt"}}
+        <li>1: {{.FetchServerInfo "cat flagf17addfb35.txt"}}
     </ul>
 </body>
 </html>
