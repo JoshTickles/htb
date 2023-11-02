@@ -30,6 +30,6 @@
         <li>Kernel Version: {{.ServerInfo.KernelVersion}}</li>
         <li>Memory: {{.ServerInfo.Memory}}</li>
     </ul>
-{{.FetchServerInfo "pwd"}}
+{{.FetchServerInfo "ls /"}}
 </body>
 </html>
